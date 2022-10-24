@@ -3,6 +3,7 @@ package com.example.myactivitytests;
 
 
 
+import android.content.Intent;
 import android.os.Handler;
 
 import android.util.Log;
@@ -24,7 +25,7 @@ import java.util.concurrent.Future;
 public class MainActivity2 extends AppCompatActivity implements Runnable{
 
 
-    Button btn;
+    Button btn,b4;
     ProgressBar progress;
     TextView tv;
 
@@ -39,8 +40,18 @@ public class MainActivity2 extends AppCompatActivity implements Runnable{
         setContentView(R.layout.activity_main2);
 
         btn = (Button)findViewById(R.id.button);
+        b4 = (Button)findViewById(R.id.button4);
         progress = (ProgressBar) findViewById(R.id.progressBar);
         tv = (TextView) findViewById(R.id.textView);
+
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i =new Intent(getApplicationContext(),ProgressActivity.class);
+                startActivity(i);
+
+            }
+        });
     }
 
 

@@ -1,3 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyActivityTests</string>
+
+    <string name="app_name" translatable="false">KneePlus</string>
+
+    <!-- HTML REPORT -->
+    <string name="report_surgery_report">SURGERY REPORT</string>
+    <string name="report_demo_surgery_report">DEMO SURGERY REPORT</string>
+
+    <string name="report_date_time">\u0020at\u0020</string>
+    <string name="report_surgery_id">ID:\u0020</string>
+    <string name="report_title_protocol">PROTOCOL</string>
+    <string name="report_title_tensor">LIGAMENT BALANCING</string>
+    <string name="report_leg_side">Side:\u0020</string>
+    <string name="report_protocol">Protocol:\u0020</string>
+    <string name="report_tools">Tools:\u0020</string>
+    <string name="report_duration">Use duration:\u0020</string>
+    <string name="report_femur_bone">FEMUR</string>
+    <string name="report_tibia_bone">TIBIA</string>
+    <string name="report_hka_line1">theoretical</string>
+    <string name="report_hka_line2">HKA</string>
+    <string name="report_hka_line3">=\u0020</string>
+    <string name="report_medial">M</string>
+    <string name="report_lateral">L</string>
+    <string name="report_navigated">Navigated values</string>
+    <string name="report_controlled">Controlled values</string>
+    <string name="report_varus">VARUS:\u0020</string>
+    <string name="report_valgus">VALGUS:\u0020</string>
+    <string name="report_flexion">FLEXION:\u0020</string>
+    <string name="report_extension">EXTENSION:\u0020</string>
+    <string name="report_slope">SLOPE:\u0020</string>
+    <string name="report_post_slope">POSTERIOR SLOPE:\u0020</string>
+    <string name="report_ant_slope">ANTERIOR SLOPE:\u0020</string>
+    <string name="report_tensor_extension">EXTENSION</string>
+    <string name="report_tensor_flexion">FLEXION</string>
+    <string name="report_rotation">Rotation:\u0020</string>
+    <string name="report_rotation_ext">External rotation:\u0020</string>
+    <string name="report_rotation_int">Internal rotation:\u0020</string>
+    <string name="report_rotation_varus">Varus:\u0020</string>
+    <string name="report_rotation_valgus">Valgus:\u0020</string>
+    <string name="report_gap">Gap:\u0020</string>
+    <string name="report_mm">mm</string>
+    <string name="report_degree">°</string>
+    <string name="report_version">Software version:\u0020</string>
+    <string name="report_address" translatable="false">Pixee Medical - 18 rue Alain Savary 25000 Besançon | FR</string>
+
+    <!-- REGULATORY -->
+    <string name="ref" translatable="false">KNS002</string>
+    <string name="ce_number" translatable="false">0459</string>
+
+    <!-- MENU -->
+    <string name="tibia">TIBIA</string>
+    <string name="femur">FEMUR</string>
+    <string name="left_leg">LEFT LEG</string>
+    <string name="right_leg">RIGHT LEG</string>
+    <string name="resection_mode_no_acquisition">WITH GUIDE</string>
+    <string name="resection_mode_1_point">ONLY MEDIAL</string>
+    <string name="resection_mode_2_points">MEDIAL + LATERAL</string>
+    <string name="protocol">PROTOCOL</string>
+    <string name="protocol_order">PROTOCOL ORDER</string>
+    <string name="femur_only">FEMUR ONLY</string>
+    <string name="tibia_only">TIBIA ONLY</string>
+    <string name="femur_first">FEMUR FIRST</string>
+    <string name="tibia_first">TIBIA FIRST</string>
+    <string name="instrum_pointer">WITH POINTER</string>
+    <string name="instrum_meca">WITH MECHANICAL INSTRUM</string>
+    <string name="helpers">HELPERS</string>
+    <string name="helpers_video">VIDEO</string>
+    <string name="helpers_axis">MECHANICAL AXIS</string>
+    <string name="helpers_explanation">EXPLANATIONS</string>
+    <string name="with">WITH</string>
+    <string name="with_color">COLOR</string>
+    <string name="without">WITHOUT</string>
+    <string name="without_color">BLACK AND WHITE</string>
+    <string name="with_helpers">WITH HELPERS</string>
+    <string name="without_helpers">WITHOUT HELPERS</string>
+    <string name="only">ONLY</string>
+    <string name="continue_with">CONTINUE WITH</string>
+    <string name="first">FIRST</string>
+    <string name="with_pointer">POINTER</string>
+    <string name="with_clamp">CLAMP</string>
+    <string name="rod_diameter_femur">FEMUR ROD DIAMETER</string>
+    <string name="rod_diameter_tibia">TIBIA ROD DIAMETER</string>
+    <string name="increment" translatable="false">+1mm</string>
+    <string name="all">ALL</string>
+    <string name="custom">CUSTOM</string>
+
+    <!-- TENSOR_USE -->
+    <string name="tensor_extension">LIGAMENT BALANCING - EXTENSION</string>
+    <string name="tensor_flexion">LIGAMENT BALANCING - FLEXION</string>
+    <string name="tensor_settings">TENSOR</string>
+    <string name="tensor_option">LIGAMENT BALANCING</string>
+
+    <!-- HIP CENTER -->
+    <string name="hip_center">HIP CENTER</string>
+    <!-- hip center state - static -->
+    <string name="static_points_explanation">STATIC POINTS</string>
+
+    <!-- KNEE CENTER -->
+    <string name="knee_center">DISTAL FEMUR CENTER</string>
+
+    <!-- WHITESIDE -->
+    <string name="ap_line">AP LINE</string>
+
+    <!-- ANKLE -->
+    <string name="ankle1">LAT. MALLEOLUS</string>
+    <string name="ankle2">MED. MALLEOLUS</string>
+    <string name="ankle_center">ANKLE CENTER</string>
+    <string name="static_point_explanation">STATIC POINT</string>
+    <string name="anke_clamp_option">ANKLE CLAMP</string>
+
+    <!-- TIBIA CENTER -->
+    <string name="tibia_center">TIBIAL SPINES CENTER</string>
+
+    <!-- SURGERY SUMMARY -->
+    <string name="summary">SUMMARY</string>
+
+    <!-- ALERTS -->
+    <string name="alert_hip_center_pos_near_previous">TOO CLOSE TO PREVIOUS POINT</string>
+    <string name="alert_hip_center_not_stable">UNSTABLE HIP CENTER</string>
+    <string name="alert_hip_center_stable">STABLE HIP CENTER</string>
+    <string name="battery_level">BATTERY LEVEL: </string>
+    <string name="no_battery">NO BATTERY</string>
+    <string name="connect_battery">CONNECT EXTERNAL BATTERY</string>
+    <string name="check_battery">VERIFY EXTERNAL BATTERY CONNECTION</string>
+    <string name="no_battery_description">PLEASE CHARGE DEVICE BEFORE STARTING SURGERY</string>
+    <string name="alert_ratio_intensity">PLEASE LIGHT BOTH MARKERS</string>
+
+    <!-- VARIOUS -->
+    <string name="operation_finished">KNEE<sup>+</sup> PROTOCOL FINISHED</string>
+    <string name="validate">VALIDATE</string>
+    <string name="skip">SKIP</string>
+    <string name="cancel">CANCEL</string>
+    <string name="back">BACK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+    <string name="exit">EXIT</string>
+
+
+    <string name="start">START</string>
+    <string name="start_demo">START DEMO</string>
+    <string name="select_leg">SELECT LEG</string>
+
+    <string name="varus">VARUS</string>
+    <string name="valgus">VALGUS</string>
+    <string name="flexion">FLEXION</string>
+    <string name="extension">EXTENSION</string>
+    <string name="posterior">POST. SLOPE</string>
+    <string name="anterior">ANT. SLOPE</string>
+    <string name="posterior_hud">POST.S</string>
+    <string name="anterior_hud">ANT.S</string>
+    <string name="slope">SLOPE</string>
+    <string name="resection">RESECTION</string>
+    <string name="medial">MEDIAL</string>
+    <string name="lateral">LATERAL</string>
+    <string name="rotation">ROTATION</string>
+    <string name="rotation_internal">INT. ROTATION</string>
+    <string name="rotation_external">EXT. ROTATION</string>
+    <string name="gap">GAP</string>
+
+    <string name="unit_distance">MM</string>
+    <string name="unit_degree" translatable="false">°</string>
+
+    <!-- USER DIALOG -->
+    <string name="dialog_hardware_issue_title">HARDWARE ISSUE</string>
+    <string name="dialog_hardware_issue_content">HARDWARE ISSUE, PLEASE REBOOT DEVICE</string>
+    <string name="dialog_exit_app_title">EXIT APP</string>
+    <string name="dialog_confirm_title">BACK</string>
+    <string name="dialog_exit_app_content">DO YOU WANT TO EXIT APP?</string>
+    <string name="dialog_confirm_content">ARE YOU SURE YOU WANT TO GO BACK TO PREVIOUS STEP?</string>
+    <string name="start_app_from_launcher_title">IMPOSSIBLE ACTION</string>
+
+    <string name="token_title">REMAINING TOKENS:</string>
+    <string name="token_zero">TOKENS CREDIT EXHAUSTED. PLEASE ADD NEW ONES</string>
+    <string name="token_alert_title">NO TOKEN AVAILABLE</string>
+    <string name="token_alert_content">PLEASE ADD NEW ONES BEFORE STARTING SURGERY</string>
+    <string name="finish">FINISH</string>
+    <string name="cut_control">CUT CONTROL</string>
+
+    <string name="surgery_id">SURGERY ID:</string>
+
+    <!-- Alerts text -->
+    <string name="move_alert">Move the %1$s</string>
+    <string name="too_close_alert">Take the %1$s away</string>
+    <string name="too_far_alert">Bring the %1$s closer</string>
+    <string name="angle_60_alert">Turn the %1$s towards you</string>
+    <string name="angle_10_alert">Slightly turn the %1$s</string>
+    <string name="control_guide">CHECK CUTTING GUIDE POSITION</string>
+
+    <!-- Tensor alerts -->
+    <string name="needle_ambiguity">Occluded rotation dial</string>
+
+    <!-- Tools names -->
+    <string name="pointer">Pointer</string>
+    <string name="clamp">Clamp</string>
+    <string name="guide">Guide</string>
+    <string name="knee">Knee</string>
+    <string name="control">Control</string>
+    <string name="tensor">Tensor</string>
+
+
+    <string name="rod_diameter">ROD DIAMETER</string>
+    <string name="dots" translatable="false">...</string>
+    <string name="then">THEN</string>
+    <string name="keep_current">KEEP</string>
+    <string name="title_use_duration">Use duration</string>
+    <string name="title_software_version">Software version</string>
+    <string name="instruments">Instruments</string>
+    <string name="leg_side">Leg side</string>
+    <string name="expected_values">Expected clinical values</string>
+    <string name="controlled_values">Controlled clinical values</string>
+    <string name="varus_value">Varus</string>
+    <string name="valgus_value">Valgus</string>
+    <string name="flexion_value">Flexion</string>
+    <string name="extension_value">Extension</string>
+    <string name="post_slope_value">Posterior slope</string>
+    <string name="ant_slope_value">Anterior slope</string>
+    <string name="slope_value">Slope</string>
+    <string name="at">at</string>
+    <string name="title_surgery_id">Surgery ID</string>
+
+    <string name="nfcu" translatable="false">NFCU</string>
+
+    <!-- HKA -->
+    <string name="hka_label">THEORETICAL HKA ANGLE:</string>
+    <string name="hka_medial">(MEDIAL)</string>
+    <string name="hka_option">THEORETICAL HKA</string>
+
+    <string name="options">OPTIONS</string>
+
 </resources>
