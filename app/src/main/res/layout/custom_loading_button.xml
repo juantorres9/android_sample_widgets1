@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_custom_loading_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+        <ImageButton
+            android:id="@+id/imageButtonL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@color/purple_200"
+            app:srcCompat="@drawable/ic_button_left" />
+
+    <TextView
+        android:id="@+id/custom_text_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="center"
+        android:background="@drawable/ic_button_center"
+
+        />
+
+    <ImageButton
+            android:id="@+id/imageButtonR"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@color/purple_200"
+            app:srcCompat="@drawable/ic_button_right"
+            />
+
+</LinearLayout>
